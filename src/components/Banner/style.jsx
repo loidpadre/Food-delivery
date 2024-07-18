@@ -7,8 +7,7 @@ export const Wrapper = styled.header`
     padding: 10px 0px;
     .container{
         width: 80%;
-        margin: 50px auto;
-        
+        margin: 150px auto;
         .top{
             display: flex;
         align-items: center;
@@ -55,7 +54,13 @@ export const Wrapper = styled.header`
                 display: flex;
                 color: white;
                 gap: 10px;
-                box-shadow: 1px 2px 3px gray;
+            
+                transition: 0.5s ease;
+                cursor: pointer;
+            &:hover{
+              background-color: ${GlobalStyle.orangeColor};
+              color: white;
+            }
             }
         }
         .col-2{

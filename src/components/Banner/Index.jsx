@@ -1,7 +1,9 @@
 import { Wrapper } from "./style";
 import BANNER from "../../assets/banner1.png";
 import { IoFastFood } from "react-icons/io5";
+import { useEffect, useState } from "react";
 export const Banner = () => {
+
   return (
     <Wrapper>
       <div className="container">

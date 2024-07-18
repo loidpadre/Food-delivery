@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { GlobalStyle } from "../../globalStyles/globalStyle";
 
 export const Wrapper = styled.nav`
   width: 100%;
   margin: 0 auto;
-  
+  position: fixed;
+  background-color: ${GlobalStyle.orangeColor};
   .container {
     display: flex;
     gap: 60px;
@@ -27,6 +29,11 @@ export const Wrapper = styled.nav`
             text-transform: uppercase;
             font-size: 14px;
             font-weight: 500;
+            transition: 0.5s ease;
+            cursor: pointer;
+            &:hover{
+              color: white;
+            }
           }
         }
       }
@@ -39,6 +46,12 @@ export const Wrapper = styled.nav`
         span{
             font-size: 14px;
             font-weight: bold;
+            transition: 0.5s ease;
+            color: white;
+            cursor: pointer;
+            &:hover{
+              color: black;
+            }
         }
     }
   }
