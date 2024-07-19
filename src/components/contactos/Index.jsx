@@ -1,6 +1,7 @@
 import { FaPhone } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { Wrapper } from "./style";
+import { MdDeliveryDining } from "react-icons/md";
 import { GlobalStyle } from "../../globalStyles/globalStyle";
 export const Contact = () =>{
     return(
@@ -31,7 +32,20 @@ export const Contact = () =>{
                                 <FaPhone size={28} color={GlobalStyle.orangeColor} />
                                 </div>
                                 <div className="text">
-                                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum doloremque maxime repellat at veritatis maiores exercitationem iure quis quasi nostrum! Eaque cumque, iusto fugit laborum reprehenderit necessitatibus delectus ipsa quisquam.</h3>
+                                    <h3>Lorem ipsum dolor.</h3>
+                                    <p>loidpadre@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className="first">
+                            <span>Whatsapp & Email</span>
+                            <div className="f">
+                                <div className="icon">
+                                <MdDeliveryDining size={28} color={GlobalStyle.orangeColor} />
+                                </div>
+                                <div className="text">
+                                    <h3>Pedir a sua comita é Urgente.</h3>
                                     <p>loidpadre@gmail.com</p>
                                 </div>
                             </div>

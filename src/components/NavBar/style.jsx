@@ -6,12 +6,14 @@ export const Wrapper = styled.nav`
   margin: 0 auto;
   position: fixed;
   background-color: ${GlobalStyle.orangeColor};
+  z-index: 1000;
   .container {
     display: flex;
     gap: 60px;
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    
     .col-1 {
       display: flex;
       align-items: center;

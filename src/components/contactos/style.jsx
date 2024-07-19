@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
       h1 {
         text-align: center;
         text-transform: uppercase;
-        font-size: 28px;
+        font-size: 25px;
       }
     }
     .contact {

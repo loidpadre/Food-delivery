@@ -13,7 +13,7 @@ export const NavBar = () => {
                 </div>
                 <div className="menu">
                     <ul>
-                        <li>Home</li>
+                        <Link to="/"><li>Home</li></Link> 
                         <li>Cardapio</li>
                         <li>Contactos</li>
                     </ul>
@@ -25,6 +25,7 @@ export const NavBar = () => {
                     <Link to="/cart"> <IoMdCart size={28} color={GlobalStyle.bannerColor} /></Link>
                     </div>
                 </div>
+                
             </div>
         </Wrapper>
     )
