@@ -14,21 +14,14 @@ export const Cards = ({ items }) => {
         );
       }
       const prod = await response.json();
-
-      // Obtendo o carrinho atual do localStorage
       let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-      // Adicionando o produto ao carrinho
       cart.push(prod);
-
-      // Salvando o carrinho atualizado no localStorage
       localStorage.setItem("cart", JSON.stringify(cart));
 
       console.log("Produto adicionado ao carrinho:", prod);
-      // Ou você pode exibir uma mensagem de sucesso, etc.
     } catch (error) {
       console.error("Erro ao adicionar produto ao carrinho:", error);
-      // Tratar o erro de acordo com sua necessidade
     }
   };
   return (
