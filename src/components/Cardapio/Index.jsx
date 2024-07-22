@@ -33,7 +33,7 @@ export const Cardapio = () => {
             <li>Refrigerante</li>
             <li>Pizza</li>
             <li>Hamburgeres</li>
-            <li>Ver Tudo</li>
+            <li>Ver Cardapio</li>
           </ul>
         </div>
         <div className="cards">
